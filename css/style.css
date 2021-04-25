@@ -1,0 +1,495 @@
+body{
+    margin: 0;
+}
+#top{
+    background-image: url(../photo/Background.png);
+    background-size: cover;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#nav div:first-child{
+    margin-left: 60px;
+}
+#nav div:nth-child(3){
+    margin-right: 60px;
+}
+#nav i{
+    width: 30px;
+    color: #FFFFFF;
+    margin-top: 22px;
+    cursor: pointer;
+}
+#nav i:hover{
+    color: #faebeb;
+}
+#nav p{
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 22px;
+}
+.newBook{
+    margin-top: 150px;
+    margin-bottom: 15px;
+    background: #1C2E3D;
+    border:none;
+    color: #FFFFFF;
+    padding: 10px;
+    opacity: 0.4;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.newBook:hover{
+    opacity: 0.6;
+}
+.newBook:focus{
+    outline: none;
+}
+.buyBook{
+    background-color: #E8594E;
+    color: #FFFFFF;
+    border:none;
+    padding: 25px;
+    margin-top: 20px;
+    font-size: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.buyBook:hover{
+    background-color:#f1645a ;
+}
+.buyBook:focus{
+    outline: none;
+}
+#top div:nth-child(2) div:first-child h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 20%;
+}
+#top div:nth-child(2) div:first-child p{
+    color: #FFFFFF;
+    width: 40%;
+}
+.SearchStories{
+    margin-left:60px;
+    width: 80%;
+}
+.SearchStories div:first-child{
+    display: flex;
+    width: 100%;
+}
+.SearchStories div:first-child div:nth-child(2){
+    width: 37.5%;
+    position: relative;
+} 
+#moutain{
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+.SearchStories div:first-child div:nth-child(2) i{
+    color: #FFFF;
+    font-size: 25px;
+    opacity: 0.0;
+    cursor: pointer;
+    position: absolute;
+    top: 49%;
+    left: 46%;
+}
+.SearchStories div:first-child div:nth-child(2) i:hover{
+    opacity: 0.7;
+}
+.SearchStories div:nth-child(2){
+    display: flex; 
+}
+.SearchStories div:nth-child(2) div:first-child input{
+    width: 100%;
+    padding: 7px 22px 0;
+    border:none;
+    border-radius: 7px 0 0 0;
+}
+.SearchStories div:nth-child(2) div:first-child input:focus{
+    outline: none;
+}
+.SearchStories div:nth-child(2) div:nth-child(2){
+    display: flex;
+    justify-content:space-around;
+    background-color: #73AFBA;
+    padding: 6px 0 6px 0;
+    width: 37.5%;
+}
+.SearchStories div:nth-child(2) div:nth-child(2) i{
+    color: #FFFFFF;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.SearchStories div:nth-child(2) div:nth-child(2) p{
+    text-align: center;
+    color: #FFFFFF;
+}
+#travelTirle{
+    margin:  100px 60px;
+    width: 30%;
+    font-size: 41px;
+}
+#travel{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 17px;
+    grid-column-gap: 30px;
+    grid-row-gap: 17px;
+    margin: 50px 50px 150px 50px;
+}
+#img1{
+    background-image: url(../photo/asoggetti-zlPhxd5OydQ-unsplash\ 1.png);
+    background-size: cover;
+    grid-row: span 15;
+    border-radius:8px ;
+}
+#travel div:nth-child(2){
+    background-image: url(../photo/tanya-tulupenko-r7dDkUN_yvU-unsplash\ 1.png);
+    background-size: cover;
+    grid-row:span 15;
+    border-radius: 8px;
+}
+#travel div:nth-child(3){
+    background-image: url(../photo/Mask\ Group.jpg);
+    background-size: cover;
+    grid-row: span 15;
+    border-radius: 8px;
+}
+#travel div:nth-child(4){
+    background-image: url(../photo/greece-1920x1080\ 2.png);
+    background-size: cover;
+    grid-row: span 15;
+    border-radius: 8px;
+}
+.ig{
+    width:100% ;
+    user-select:none;
+}
+#lakeImg{
+    background-image: url(../photo/GettyImages-4540860191-59930af8396e5a0010a21cde\ 1.jpg);
+    background-size: cover;
+}
+#lakeImg p {
+    color: #FFFFFF;
+    width: 60%;
+}
+#lakeImg h2{
+    font-size: 40px;
+    color: #FFFFFF;
+    width:50%;
+}
+.featured{
+    margin-top: 600px;
+    margin-bottom: 30px;
+    background-color:#E8594E;
+    border:none;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 24px;
+    font-size: 12px;
+}
+.featured:hover{
+    background-color:#e27068;
+    cursor: pointer;
+}
+.featured:focus{
+    outline: none;
+}
+.readarticle{
+    background-color: #73AFBA;
+    color: #FFFFFF;
+    border:none;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.readarticle:hover{
+    background-color: #86c7d3;
+    cursor: pointer;
+}
+.readarticle:focus{
+    outline:none;
+}
+.avatar{ 
+    display:flex;
+    margin-left:50px;
+    border-bottom:1px solid #E3E3E3;
+    width: 80%;
+}
+.avatar img{
+    width: 19%;
+    border-radius: 50%;
+    margin:30px
+}
+.avatar p{
+    color: #FFFFFF;
+    width: 90%;
+    margin: 30px;
+}
+.avatar4{
+    border:none;
+    margin-bottom: 30px;
+}
+#videosTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#videosTitle h1{
+    margin-top: 100px;
+    font-size: 50px;
+}
+#videosTitle  p{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 70px;
+    color: #788692;
+}
+#picture{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-auto-rows: 25px;
+    grid-column-gap: 30px;
+    margin-bottom: 100px;
+}
+#picture div:first-child{
+    background-image: url(../photo/img.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    grid-row: span 17;
+    margin-top:50px;
+} 
+#picture div:nth-child(2){
+    grid-row: span 20;
+    border-radius: 8px;
+    position: relative;
+}
+#picture div:nth-child(2){
+    background-image: url(../photo/greece-1920x1080\ 1.png);
+    background-size: cover;
+    grid-row: span 20;
+    border-radius: 8px;
+    position: relative;
+} 
+#picture div:nth-child(3){
+    background-image: url(../photo/willian-justen-de-vasconcellos-cNagAGEok9k-unsplash\ 1.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    grid-row: span 17;
+    margin-top:50px;
+}
+#picture i{
+    position: absolute;
+    font-size: 100px;
+    margin:10px 0 0 20px;
+    color: #E8594E;
+    left: 0;
+}
+#picture i:hover{
+    cursor: pointer;
+    color: #f36a60;
+}
+#picture p{
+    position: absolute;bottom: 0;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 20px;
+}
+#mountain{
+    margin:auto;
+    background-image: url(../photo/aleks-dahlberg-Vvje-a4hI1k-unsplash\ 1.png);
+    background-size: cover;
+    width: 70%;
+    filter: grayscale(60%);
+}
+#mountain div:first-child h1{
+    color: #FFFFFF;
+    margin-left: 100px;
+    width: 40%;
+    display: inline-block;
+    margin-top: 300px;
+    font-size: 50px;
+} 
+#mountain div:first-child p{
+    margin-left: 100px;
+    color:#FFFFFF;
+    width: 40%;
+    padding-bottom: 70px;
+}
+#form{
+    background-color: #FFFFFF;
+    position:absolute;
+    border-radius: 8px 8px 0px 0px;
+    right: 20%;
+    top: 60%;
+    width: 23%;
+}
+#form div:first-child div:first-child{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#form input{
+    margin: 30px 0  30px 0;
+    border:none;
+    border-bottom: 1px solid #1C2E3D;
+    font-size: 11px;
+    width: 60%;
+}
+#form div:nth-child(2) button{
+    text-align: center; 
+    font-size: 12px;
+    padding: 20px; 
+    color: #FFFFFF;
+    border:none;
+    background-color: #73AFBA;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    cursor: pointer;
+}
+#form div:nth-child(2) button:hover{
+    background-color: #8bc8d3;
+}
+#form div:nth-child(2) button:focus{
+    outline: none;
+}
+#information{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 10px;
+    grid-column-gap: 30px;
+    grid-row-gap: 17px;
+    margin: 0 50px 0 50px;
+}
+#information div:first-child{
+    grid-row: span 17;
+}
+#information div:nth-child(2){
+    grid-row: span 17;
+}
+#information div:nth-child(3){
+    grid-row: span 17;
+}
+#information div:nth-child(4){
+    position: relative;
+    max-width: 400px;
+    grid-row: span 17;
+}
+#information div:nth-child(4) button{
+    background-color: #73AFBA;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 55px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#information div:nth-child(4) button:hover{
+    background-color: #8bc4ce;
+}
+#information div:nth-child(4) button:focus{
+    outline: none;
+}
+#information div:nth-child(4) input{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+}
+.inf_2 {
+    color: #959EA6;
+}
+.inf_1{
+    margin-top: 100px;
+    color: #100E0B;
+    font-size: 20px;
+}
+.border_bottom{
+    border-bottom: 1px solid #57A773; 
+    width: 20%;
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 10px;
+    grid-column-gap: 30px;
+    grid-row-gap: 17px; 
+}
+#footer div:first-child {
+    grid-row: span 3;
+}
+#footer div:nth-child(2){
+    grid-row: span 3;
+    grid-column-end:end;
+}
+#footer span{
+    margin: 0 30px ;
+    color: #959EA6;
+}
+#footer p{
+    margin-left: 30px;
+    font-size: 13px;
+    color: #959EA6;
+}
+
+@media (max-width: 900px) {
+    #travel { grid-template-columns: repeat(2, 1fr); }
+    #travelTirle{
+        width: 50%;
+        font-size: 30px;
+    }
+    #lakeImg div:first-child{
+        display: flex;
+        flex-direction: column;
+    }
+    .featured{
+        margin-top: 300px;
+        width: 30%;
+    }
+    .readarticle{
+        width: 50%;
+    }
+    #picture div:nth-child(2){
+        grid-row: span 15;
+    } 
+    #mountain{
+        width: 100%;
+    }
+    #form{
+        left: 60%;
+        width: 30%;
+    }
+    #mountain div:first-child h1{
+        margin-left: 50px;
+        font-size: 40px;
+    } 
+    #mountain div:first-child p{
+        margin-left: 50px;
+    }
+    
+}
+@media (max-width: 650px) {
+    #travel {
+         grid-template-columns: repeat(1, 1fr); 
+    }
+    #travelTirle{
+        width: 50%;
+        font-size: 30px;
+    }
+    #information{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #picture div:nth-child(2) {
+        grid-row: span 10;
+    }
+    #picture i{ 
+        font-size: 50px;
+    }
+}
